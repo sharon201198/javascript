@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="js form">
+        <form
+          name="loginForm"
+          action=""
+          onsubmit="return submitForm()"
+          method="post"
+          required
+        >
+          <div class="row">
+            <div class="col">
+              <div class="form__block">
+                <label for="User name">First name</label>
+                <input type="text" name="firstname" />
+                <p class="error-msg" id="username">Name must be filled</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form__block">
+                <label for="User name">Last name</label>
+                <input type="text" name="lastname" />
+                <p class="error-msg" id="lastname">Name must be filled</p>
+              </div>
+            </div>
+          </div>
+          <div class="dob">
+            <label for="User name">DOB</label>
+            <div class="row">
+              <div class="col">
+                <select name="date" id="">
+                  <option value="0">Please select</option>
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                </select>
+                <select name="dob" id="">
+                  <option value="0">Please select</option>
+                  <option value="Januvary">Januvary</option>
+                  <option value="Februvary">Februvary</option>
+                </select>
+                <select name="dob" id="">
+                  <option value="0">Please select</option>
+                  <option value="1998">1998</option>
+                  <option value="1999">1998</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="form__block">
+                <label for="User name">Father's Name</label>
+                <input type="text" name="fathername" />
+                <p class="error-msg" id="fathername">
+                  Father name must be filled
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form__block">
+                <label for="User name">Mother's name</label>
+                <input type="text" name="mothername" />
+                <p class="error-msg" id="mothername">
+                  Mother name must be filled
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row gender form__block">
+            <div class="col">
+              <div class="gender__1">
+                <label for="male">Male</label>
+                <input type="checkbox" />
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="gender__1">
+                <label for="female">Female</label>
+                <input type="checkbox" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="gender__1">
+                <label for="other">Other</label>
+                <input type="checkbox" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="form__block">
+                <label for="nationality">Nationality</label>
+                <select name="nationality" id="nationality">
+                  <option value="0">Please select</option>
+                  <option value="1">USA</option>
+                  <option value="2">UK</option>
+                  <option value="3">AUSTRALIA</option>
+                  <option value="4">CHINA</option>
+                  <option value="5">INDIA</option>
+                  <option value="6">JAPAN</option>
+                  <option value="7">FRANCE</option>
+                  <option value="8">GERMANTY</option>
+                </select>
+                <p class="error-msg" id="fathername">
+                  Father name must be filled
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form__block">
+                <label for="course">Cource</label>
+                <select name="cource" id="cource">
+                  <option value="0">Please select</option>
+                  <option value="1">B Tech</option>
+                  <option value="2">M Tech</option>
+                  <option value="3">MCA</option>
+                  <option value="4">M Phil</option>
+                </select>
+                <p class="error-msg" id="mothername">
+                  Mother name must be filled
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form__block">
+                <label for="specialization">specialization</label>
+                <select name="cource" id="cource">
+                  <option value="0">Please select</option>
+                  <option value="1">ECE</option>
+                  <option value="2">CSE</option>
+                  <option value="3">ME</option>
+                  <option value="4">PE</option>
+                </select>
+                <p class="error-msg" id="mothername">
+                  Mother name must be filled
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row form__block textarea">
+            <div class="col">
+              <label for="Notes"> Notes</label>
+              <textarea rows="6" name="" id=""></textarea>
+            </div>
+          </div>
+
+          <div class="form__block text-right">
+            <input class="l-btn" type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer></footer>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>

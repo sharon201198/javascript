@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.js.form {
+  height: calc(100vh - 1rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.js.form form {
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+input,
+select,
+textarea {
+  padding: 0.4rem;
+  font-size: 14px;
+  width: 100%;
+}
+label {
+  font-size: 13px;
+  font-weight: 700;
+  display: block;
+}
+.form__block {
+  margin-bottom: 1rem;
+}
+.form__block.form__block--remember {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+a {
+  color: #000;
+  display: block;
+}
+.l-btn {
+  background-color: #000;
+  padding: 0.3rem 1rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.error-msg {
+  color: red;
+  font-size: 14px;
+  font-style: italic;
+  margin: 0;
+  display: none;
+}
+input[type="text"] {
+  width: 100%;
+}
+.text-right {
+  text-align: right;
+}
+.row {
+  display: flex;
+  gap: 1rem;
+}
+.dob label {
+  display: block;
+}
+.dob .col {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+.dob .col select {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.gender .col .gender__1 {
+  display: flex;
+}
+.textarea .col {
+  width: 100%;
+}
